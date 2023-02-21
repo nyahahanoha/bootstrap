@@ -1,0 +1,62 @@
+### tap
+tap "homebrew/bundle" # brew bundle コマンド
+tap "homebrew/cask" # GUI アプリのインストール
+tap "homebrew/services" # brew service コマンド
+tap "homebrew/cask-fonts" # フォント
+tap "homebrew/cask-versions" # 異なるバージョンの cask
+
+### Casks
+cask "bitwarden"
+cask "clipy" # ショートカットツール
+cask "DeepL" # Trains AIs to understand and translate texts
+cask "discord" # 連絡用ツール
+cask "docker" #コンテナツール
+cask "drawio" # 描画ツール
+cask "fig" # Reimagine your terminal
+cask "firefox"
+cask "font-hackgen" # Japanese programming font which is a composed of Hack and GenJyuu-Gothic
+cask "google-chrome" # ブラウザ
+cask "google-drive" # オンラインストレージ
+cask "iterm2" # Terminal emulator as alternative to Apple's Terminal app
+cask "karabiner-elements" # Keyboard customizer
+cask "multipass"
+cask "mactex-no-gui" # TeX Live (GUI アプリなし)
+cask "mendeley" #参考文献管理ソフト
+cask "microsoft-teams" #連絡用ツール
+cask "notion" # webテキストエディタ
+cask "owasp-zap"
+cask "postman"
+cask "qlstephen" # テキストの QuickLook プラグイン
+cask "rectangle" # ショートカットツール
+cask "utm" # 仮想化OS
+cask "visual-studio-code" # 多機能テキストエディタ
+cask "vmware-fusion"
+cask "wireshark" # Graphical network analyzer and capture tool
+
+### Homebrew
+brew "ansible" # Automate deployment, configuration, and upgradingbrew "python@3.10" # programming language
+brew "git" # Distributed revision control system
+brew "iproute2mac"
+brew "jq" #curl tool
+brew "mas" # Mac App Store command-line interface
+brew "mysql" #database program
+brew "netcat"
+brew "nodebrew"
+brew "nodejs"
+brew "nvim" # Multi-functional text editor
+brew "openvpn"
+brew "python-tk" # Python interface to Tcl/Tk
+brew "python-tk@3.11"
+brew "pacvim" #vim game
+brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+brew "rustup" # Rust toolchain installer
+brew "wireguard-tools"
+brew "wget"
+brew "yarn"
+
+### mas
+mas "Brother iPrint&Scan", id:1193539993 # 家庭用プリンターツール
+mas "CLCL Lite", id:495511246 # ショートカットツール
+mas "Kindle", id:405399194
+mas "Microsoft Remote Desktop", id:1295203466
+mas "WireGuard", id:1451685025
