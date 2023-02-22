@@ -16,7 +16,7 @@ DOTPATH=$HOME/dotfiles
 if [ ! -d "$DOTPATH" ]; then
   # 初回実行時はリポジトリがないので、clone してくる
   echo "Cloning dotfiles.git ..."
-  git clone https://orion_noutau@bitbucket.org/orion_noutau/dotfiles.git "$DOTPATH"
+  git clone https://github.com/nyahahanoha/bootstrap "$DOTPATH"
 else
   # すでにフォルダがある時はそのことを表示
   echo "$DOTPATH already downloaded."

@@ -35,6 +35,7 @@ cask "wireshark" # Graphical network analyzer and capture tool
 
 ### Homebrew
 brew "ansible" # Automate deployment, configuration, and upgradingbrew "python@3.10" # programming language
+brew "gh"
 brew "git" # Distributed revision control system
 brew "iproute2mac"
 brew "jq" #curl tool
