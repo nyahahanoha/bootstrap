@@ -53,8 +53,8 @@ fi
 if is_arm; then
   echo "brew bundle in Rosetta2 ..."
   cd rosetta2_brew
-  #arch --arch x86_64 /usr/local/bin/brew bundle
-  #arch --arch arm64 /opt/homebrew/bin/brew bundle
+  arch --arch x86_64 /usr/local/bin/brew bundle
+  # arch --arch arm64 /opt/homebrew/bin/brew bundle
 
   # /opt/homebrew/bin のパスを追加
   echo "brew bundle in Arm native ..."
